@@ -1,0 +1,63 @@
+:root {
+  font-size: 62.5%; /*1rem = 10px*/
+
+  --primary-color: #00856f;
+  --headline: #212529;
+  --paragraph: #495057;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+header {
+  width: 37.5rem;
+  margin-top: 4.1rem;
+  margin-inline: auto;
+  padding: 1rem 1rem 0;
+}
+
+h1 {
+  font-size: 3.4rem;
+  line-height: 130%;
+  margin-bottom: 2.4rem;
+  color: var(--headline);
+}
+
+h4 {
+  font-size: 1.4rem;
+  line-height: 150%;
+  margin-bottom: 1.6rem;
+  color: var(--primary-color);
+}
+
+p {
+  font-size: 1.8rem;
+  line-height: 150%;
+  color: var(--paragraph);
+  margin-bottom: 3.2rem;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.6rem;
+  padding: 16px 32px;
+  border-radius: 40px;
+  border-style: none;
+  text-transform: uppercase;
+  background-color: var(--primary-color);
+  color: #fff;
+  margin-inline: auto;
+  margin-bottom: 6rem;
+  font-size: 1.4rem;
+  font-weight: 700px;
+}
